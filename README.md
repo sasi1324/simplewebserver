@@ -22,7 +22,8 @@ Testing the webserver.
 
 ## PROGRAM:
 ```
-"""
+from http.server import HTTPServer, BaseHTTPRequestHandler
+content = """
 <html>
 <title> Image map </title>
 <body>
@@ -80,6 +81,8 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
+
+
 ```
 ## OUTPUT:
 ![Alt text](<simplewebserver/Screenshot 2023-11-08 230005.png>)
