@@ -1,5 +1,5 @@
 # EX01 Developing a Simple Webserver
-## Date:6.10.2023
+## Date:
 
 ## AIM:
 To develop a simple webserver to serve html pages.
@@ -70,7 +70,9 @@ Testing the webserver.
 ```
 
 ## OUTPUT:
-![Alt text](<Screenshot 2023-11-08 230005.png>)
-![Alt text](Screenshot...123.png)
+![Screenshot 2023-11-08 230005](https://github.com/user-attachments/assets/0c3844b9-0060-4570-a720-2ab6faa63e33).
+
+![Screenshot 123](https://github.com/user-attachments/assets/990c29cc-0bda-435f-9f11-5911a2ee3897)
+
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
